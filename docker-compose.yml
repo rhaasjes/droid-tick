@@ -1,7 +1,7 @@
 version: '2'
 services:
   influxdb:
-          image: influxdb:latest
+    image: influxdb:latest
     restart: always
     ports:
       - '8086:8086'
